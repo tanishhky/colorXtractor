@@ -1,7 +1,7 @@
 ## Purpose
 The purpose of this repository/package is to provide a mechanism to extract colors from an Image() object in JavaScript based on their frequency percentile.
 
-## Installatin and Usage
+## Installation and Usage
 To install your npm package and use it in your website to analyze an image, follow these steps:
 
 ### Using Vanilla JS
