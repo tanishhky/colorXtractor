@@ -1,3 +1,22 @@
+function rgbToHex(rgbString) {
+    // Split the string into individual RGB values
+    var rgbValues = rgbString.split(',');
+
+    // Convert RGB values from strings to integers
+    var r = parseInt(rgbValues[0]);
+    var g = parseInt(rgbValues[1]);
+    var b = parseInt(rgbValues[2]);
+
+    // Convert RGB to hexadecimal
+    var hexValue = "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+
+    return hexValue;
+}
+
+function componentToHex(c) {
+	var hex = c.toString(16);
+	return hex.length == 1 ? "0" + hex : hex;
+}
 function componentToHex(c) {
 	var hex = c.toString(16);
 	return hex.length == 1 ? "0" + hex : hex;
