@@ -1,7 +1,7 @@
 {
     "name": "colorxtractor",
-    "version": "1.0.1",
-    "description": "The analyze-colors package provides a simple and efficient way to analyze the color distribution of an image. It includes functions to extract the most prominent colors from an image based on specified percentiles. This package utilizes the HTML5 Canvas API to process image data and calculates color occurrences accurately. Whether you're building image processing tools, generating color palettes, or performing color analysis in your applications, analyze-colors simplifies the process with its easy-to-use interface and customizable options.",
+    "version": "1.0.4",
+    "description": "Adding readme.md",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
